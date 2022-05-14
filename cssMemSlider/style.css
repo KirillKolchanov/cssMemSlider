@@ -102,3 +102,31 @@ label:hover span {
 .img5 {
   background-image: url("./assets/r_2282255_FtUFU.jpg");
 }
+
+/* Добавление перелистывания слайдов */
+#slide1:checked ~ .slider .slider-wrapper {
+  margin-left: 0;
+}
+#slide2:checked ~ .slider .slider-wrapper {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slider .slider-wrapper {
+  margin-left: -200%;
+}
+#slide4:checked ~ .slider .slider-wrapper {
+  margin-left: -300%;
+}
+
+/* Добавление перелистывания текста */
+#slide1:checked ~ .slider-text .text-wrapper {
+  margin-left: 0;
+}
+#slide2:checked ~ .slider-text .text-wrapper {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slider-text .text-wrapper {
+  margin-left: -200%;
+}
+#slide4:checked ~ .slider-text .text-wrapper {
+  margin-left: -300%;
+}
