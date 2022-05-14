@@ -137,3 +137,11 @@ label:hover span {
 #slide4:active ~ .slider-button .label4 span:hover {
   background-color: rgb(207, 206, 206);
 }
+
+#slide1:checked ~ .slider-button .label1 span,
+#slide2:checked ~ .slider-button .label2 span,
+#slide3:checked ~ .slider-button .label3 span,
+#slide4:checked ~ .slider-button .label4 span {
+  background: transparent;
+  border: 2px solid rgb(7, 197, 168);
+}
