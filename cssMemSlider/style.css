@@ -38,3 +38,51 @@ input {
   object-fit: cover;
   background-size: 100% 100%;
 }
+
+.slider-text {
+  margin-top: 20px;
+  width: 300px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.text-wrapper {
+  width: 400%;
+  display: flex;
+  transition: all .5s;
+}
+
+.text {
+  width: 100%;
+  font-family: 'Arial';
+  font-size: 1em;
+  color: #fff;
+}
+
+.slider-button {
+  margin-top: 20px;
+  display: flex;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+span {
+  display: flex;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(7, 197, 168);
+}
+
+label:hover span {
+  background-color: #fff;
+}
