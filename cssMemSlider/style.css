@@ -130,3 +130,10 @@ label:hover span {
 #slide4:checked ~ .slider-text .text-wrapper {
   margin-left: -300%;
 }
+
+#slide1:active ~ .slider-button .label1 span:hover,
+#slide2:active ~ .slider-button .label2 span:hover,
+#slide3:active ~ .slider-button .label3 span:hover,
+#slide4:active ~ .slider-button .label4 span:hover {
+  background-color: rgb(207, 206, 206);
+}
